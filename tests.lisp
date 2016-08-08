@@ -1,9 +1,9 @@
 (in-package :cl-user)
 
-(defpackage :cl-vcr-test
+(defpackage :cl-vcr-tests
   (:use :cl :prove))
 
-(in-package :cl-vcr-test)
+(in-package :cl-vcr-tests)
 
 (plan 1)
 

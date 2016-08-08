@@ -1,3 +1,5 @@
+[[http://travis-ci.org/kidd/cl-vcr][file:https://api.travis-ci.org/kidd/cl-vcr.svg?branch=master]]
+
 * Name
   cl-vcr
 

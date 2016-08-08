@@ -10,7 +10,7 @@ install:
   - curl https://raw.githubusercontent.com/luismbo/cl-travis/master/install.sh | bash
 
 script:
-  - cl -l prove -e '(or (prove:run :cl-vcr-test) (uiop:quit -1))'
+  - cl -l prove -e '(ql:quickload :cl-vcr-tests) (or (prove:run :cl-vcr-tests) (uiop:quit -1))'
 
 
 notifications:
