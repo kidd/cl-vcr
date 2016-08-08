@@ -1,0 +1,19 @@
+language: common-lisp
+sudo: required
+
+env:
+  matrix:
+    - LISP=sbcl
+    - LISP=ccl
+
+install:
+  # Install cl-travis
+  - curl https://raw.githubusercontent.com/luismbo/cl-travis/master/install.sh | bash
+
+script:
+  - cl -l prove -e '(or (prove:run :cl-vcr-test) (uiop:quit -1))'
+
+
+notifications:
+  email:
+    - raimonster@gmail.com

@@ -11,4 +11,4 @@
   In fact that's the idea
 
 * Run tests
-  (prove:run :cl-vcr) or (asdf:test-system :cl-vcr)
+  (prove:run :cl-vcr-test) or (asdf:test-system :cl-vcr-test)
