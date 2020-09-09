@@ -7,10 +7,17 @@
   This library is inspired by https://github.com/vcr/vcr
 
 * Description
-  Record your test suite's HTTP interactions and replay them during
+  Record your TEST SUITE'S HTTP interactions and replay them during
   future test runs for fast, deterministic, accurate tests.
-
-  In fact that's the idea
 
 * Run tests
   (prove:run :cl-vcr-tests) or (asdf:test-system :cl-vcr-tests)
+
+* Status
+  As
+  https://40ants.com/lisp-project-of-the-day/2020/09/0182-cl-vcr.html
+  points out in a very nice way, this snippet is not robust at all.
+
+  =CL-VCR is a good example of a really bad implementation of a nice idea :)=
+
+  Amen
