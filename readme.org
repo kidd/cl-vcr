@@ -1,5 +1,5 @@
-[[http://travis-ci.org/kidd/cl-vcr][file:https://api.travis-ci.org/kidd/cl-vcr.svg?branch=master]]
-
+#+TITLE: CL-VCR is a good example of a really bad implementation of a nice idea :) -- svetlyak40wt
+#+AUTHOR:
 * Name
   cl-vcr
 
